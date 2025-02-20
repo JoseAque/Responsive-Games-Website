@@ -359,6 +359,7 @@ header{
 .video-container video{
     width: 100%;
     aspect-ratio: 16/9;
+    border-radius: 0.8rem;
 }
 .video-container{
     margin-top: 5rem;
@@ -384,13 +385,13 @@ header{
     gap: 10px;
     margin-bottom: 2rem;
 }
-.download-linkElden{
+.download-linkWind{
     display: grid;
     grid-template-columns: repeat(auto, 1fr);
     gap: 10px;
     margin-bottom: 2rem;
 }
-.download-linkElden a{
+.download-linkWind a{
     text-align: center;
     background: var(--main-color);
     padding: 12px 20px;
@@ -398,7 +399,7 @@ header{
     letter-spacing: 1px;
     font-weight: 500;
 }
-.download-linkElden a:hover{
+.download-linkWind a:hover{
     background: var(--light-color);
     transition: 0.1s all linear;
 }
